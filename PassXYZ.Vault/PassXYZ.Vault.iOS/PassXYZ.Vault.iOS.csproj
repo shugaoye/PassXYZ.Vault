@@ -152,6 +152,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\..\..\KPCLib\PureOtp\PureOtp\PureOtp.csproj">
+      <Project>{d211b658-c692-476c-b043-e0cb8505655c}</Project>
+      <Name>PureOtp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PassXYZ.Vault\PassXYZ.Vault.csproj">
       <Project>{E87E5151-8B97-4531-B8A2-4B9F556776C3}</Project>
       <Name>PassXYZ.Vault</Name>
