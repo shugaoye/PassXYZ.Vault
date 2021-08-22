@@ -973,4 +973,34 @@ PassXYZ built-in template files can be downloaded at the below links:
   <data name="SiguUpMessage" xml:space="preserve">
     <value>Successfully created a new user</value>
   </data>
+  <data name="settings_keyFileField_Value3" xml:space="preserve">
+    <value>Device Lock</value>
+  </data>
+  <data name="action_id_export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="export_error1" xml:space="preserve">
+    <value>Please select a user first.</value>
+  </data>
+  <data name="import_message1" xml:space="preserve">
+    <value>Please select a KeePass or PassXYZ data file</value>
+  </data>
+  <data name="import_data_file" xml:space="preserve">
+    <value>Data file</value>
+  </data>
+  <data name="import_data_file_ex" xml:space="preserve">
+    <value>Data file (with key file)</value>
+  </data>
+  <data name="import_keyfile" xml:space="preserve">
+    <value>Import key file</value>
+  </data>
+  <data name="import_error_msg" xml:space="preserve">
+    <value>Cannot import this file!</value>
+  </data>
+  <data name="import_keyfile_scan" xml:space="preserve">
+    <value>Scan key file QR code</value>
+  </data>
+  <data name="menu_id_users" xml:space="preserve">
+    <value>Users</value>
+  </data>
 </root>

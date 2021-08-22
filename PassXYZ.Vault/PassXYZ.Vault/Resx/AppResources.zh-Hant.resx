@@ -931,4 +931,34 @@
   <data name="SiguUpMessage" xml:space="preserve">
     <value>成功的創建了新用戶</value>
   </data>
+  <data name="settings_keyFileField_Value3" xml:space="preserve">
+    <value>設備鎖</value>
+  </data>
+  <data name="action_id_export" xml:space="preserve">
+    <value>導出</value>
+  </data>
+  <data name="export_error1" xml:space="preserve">
+    <value>請選擇一個用戶</value>
+  </data>
+  <data name="import_message1" xml:space="preserve">
+    <value>請選擇一個KeePass或PassXYZ數據文件</value>
+  </data>
+  <data name="import_data_file" xml:space="preserve">
+    <value>數據文件</value>
+  </data>
+  <data name="import_data_file_ex" xml:space="preserve">
+    <value>數據文件(有密鑰文件)</value>
+  </data>
+  <data name="import_keyfile" xml:space="preserve">
+    <value>導入密鑰文件</value>
+  </data>
+  <data name="import_error_msg" xml:space="preserve">
+    <value>無法導入文件！</value>
+  </data>
+  <data name="import_keyfile_scan" xml:space="preserve">
+    <value>掃描密鑰文件二維碼</value>
+  </data>
+  <data name="menu_id_users" xml:space="preserve">
+    <value>用戶</value>
+  </data>
 </root>

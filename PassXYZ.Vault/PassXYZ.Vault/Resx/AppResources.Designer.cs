@@ -315,6 +315,15 @@ namespace PassXYZ.Vault.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Export.
+        /// </summary>
+        internal static string action_id_export {
+            get {
+                return ResourceManager.GetString("action_id_export", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Barcode.
         /// </summary>
         internal static string action_id_generatebarcode {
@@ -1224,6 +1233,15 @@ namespace PassXYZ.Vault.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please select a user first..
+        /// </summary>
+        internal static string export_error1 {
+            get {
+                return ResourceManager.GetString("export_error1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 支付宝生活号.
         /// </summary>
         internal static string field_id_alipay {
@@ -1539,11 +1557,65 @@ namespace PassXYZ.Vault.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Data file.
+        /// </summary>
+        internal static string import_data_file {
+            get {
+                return ResourceManager.GetString("import_data_file", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Data file (with key file).
+        /// </summary>
+        internal static string import_data_file_ex {
+            get {
+                return ResourceManager.GetString("import_data_file_ex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot import this file!.
+        /// </summary>
+        internal static string import_error_msg {
+            get {
+                return ResourceManager.GetString("import_error_msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cannot import this file! This user alreay exists..
         /// </summary>
         internal static string import_error_user_exits {
             get {
                 return ResourceManager.GetString("import_error_user_exits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import key file.
+        /// </summary>
+        internal static string import_keyfile {
+            get {
+                return ResourceManager.GetString("import_keyfile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scan key file QR code.
+        /// </summary>
+        internal static string import_keyfile_scan {
+            get {
+                return ResourceManager.GetString("import_keyfile_scan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please select a KeePass or PassXYZ data file.
+        /// </summary>
+        internal static string import_message1 {
+            get {
+                return ResourceManager.GetString("import_message1", resourceCulture);
             }
         }
         
@@ -1697,6 +1769,15 @@ namespace PassXYZ.Vault.Resx {
         internal static string menu_id_user {
             get {
                 return ResourceManager.GetString("menu_id_user", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Users.
+        /// </summary>
+        internal static string menu_id_users {
+            get {
+                return ResourceManager.GetString("menu_id_users", resourceCulture);
             }
         }
         
@@ -2003,6 +2084,15 @@ namespace PassXYZ.Vault.Resx {
         internal static string settings_keyFileField_Value2 {
             get {
                 return ResourceManager.GetString("settings_keyFileField_Value2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Lock.
+        /// </summary>
+        internal static string settings_keyFileField_Value3 {
+            get {
+                return ResourceManager.GetString("settings_keyFileField_Value3", resourceCulture);
             }
         }
         
