@@ -247,6 +247,14 @@ namespace PassXYZLib
                 if (remoteUsers.Count() == 0)
                 {
                     Debug.WriteLine("PxSFtp: cannot retrieve remote users");
+                    // Since there is no remote users, we return local users only.
+                    pxUsers = await PxUser.LoadLocalUsersAsync();
+                    foreach (PxUser localOnlyUser in pxUsers)
+                    {
+                        localOnlyUser.SyncStatus = PxCloudSyncStatus.PxLocal;
+                    }
+                    _isSynchronized = true;
+                    PassXYZ.Vault.App.IsBusyToLoadUsers = false;
                     return;
                 }
 
