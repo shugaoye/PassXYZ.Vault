@@ -17,7 +17,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v12.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
@@ -128,11 +128,11 @@
     <AndroidResource Include="Resources\drawable\icon_feed.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\KPCLib\KPCLib\KPCLib.csproj">
+    <ProjectReference Include="..\..\KPCLib\KPCLib\KPCLib.csproj">
       <Project>{23b3e37e-a262-4371-ac98-8af6976bbc27}</Project>
       <Name>KPCLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\KPCLib\PassXYZLib\PassXYZLib.csproj">
+    <ProjectReference Include="..\..\KPCLib\PassXYZLib\PassXYZLib.csproj">
       <Project>{2ba8fcc0-3f26-47d6-a266-24f217411cd8}</Project>
       <Name>PassXYZLib</Name>
     </ProjectReference>
