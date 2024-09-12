@@ -1,9 +1,12 @@
 [submodule "KPCLib"]
 	path = KPCLib
 	url = git@github.com:shugaoye/KPCLib.git
+	branch = xamarin
 [submodule "Xamarin.Forms.FontAwesome"]
 	path = Xamarin.Forms.FontAwesome
 	url = git@github.com:shugaoye/Xamarin.Forms.FontAwesome.git
+	branch = passxyz
 [submodule "Xamarin.Forms.IconFontHelper"]
 	path = Xamarin.Forms.IconFontHelper
 	url = git@github.com:shugaoye/Xamarin.Forms.IconFontHelper.git
+	branch = passxyz
